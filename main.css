@@ -1,6 +1,6 @@
 body{
-    background-color: #000000c9;
-    color: #fff9;
+    background-color: hsl(0, 0%, 0%);
+    color: #FFFFFF;
 }
 .clock{
     --clock-size: 360px;
@@ -9,6 +9,7 @@ body{
     margin: auto;
     border-radius: 50%;
     position: relative;
+    transform: translateY(50%);
 }
 .spike{
     z-index: 5;
